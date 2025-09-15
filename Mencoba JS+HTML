@@ -9,9 +9,8 @@
         } else {
           notif = "Bilangan " + bilangan + " adalah Bilangan Ganjil";
         }
-        // Tampilkan hasil dalam alert
         alert(notif);
-        document.getElementById('output').textContent = alert;
+        document.getElementById('output').textContent = notif;
       }
     </script>
   </head>
